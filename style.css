@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/2b/3b/04/2b3b04771ccca26c3dd96d781b0117ca.jpg");
+}
+
+.container{
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+.hp{
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    border-radius: 40px;
+    background-color: #01f82283;
+    color:#eff3ff;
+    padding: 2px 9px;
+}
+
+.hp>span{
+    font-size: 19px;
+}
+
+.type{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.type>p{
+    width: fit-content;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    background-color:red;
+    padding: 2px 10px;
+    margin-left: 10px;
+    margin-bottom: 1rem;
+}
+
+.card{
+    margin: 20vh auto;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: rgb(44, 204, 196);
+}
+
+.card>img{
+    height: 200px;
+    padding: 10px;
+    background:radial-gradient(circle at 60% 0%, orange 60%, #ffffff 36%);
+    
+}
+
+.statics{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+.static-number{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.static-description{
+    margin-top: -1rem;
+    margin-left: 10px;
+
+}
+
+button.btn{
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    background-color: purple;
+}
